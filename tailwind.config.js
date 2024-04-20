@@ -9,8 +9,24 @@ export default {
     container: {
       center: true,
     },
+
+    fontFamily: {
+      JosefinFont: "var(--JosefinFont)",
+    },
     
-    extend: {},
+    extend: {
+
+      colors: {
+        HeaderColor: "var(--HeaderColor)",
+        BtnColor: "var(--BtnColor)",
+        OverlayColor: "var(--OverlayColor)",
+        PrimarycrdColor: "var(--PrimarycrdColor)",
+        SecondarycrdColor: "var(--SecondarycrdColor)",
+        CommonColor: "var(--CommonColor)",
+        FooterColor: "var(--FooterColor)",
+      },
+
+    },
   },
   plugins: [],
 }
