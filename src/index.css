@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --HeaderColor:  #7E33E0;
+    --BtnColor: #FB2E86;
+    --OverlayColor: #2F1AC4;
+    --PrimarycrdColor: #F6F7FB;
+    --SecondarycrdColor: #F7F7F7;
+    --CommonColor: #fff;
+    --FooterColor: #EEEFFB;
+    --JosefinFont: "Josefin Sans", sans-serif;
+};
+
+
+
+@layer base{
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+    *{
+      @apply m-0 p-0 outline-none box-border;
+    }
+    ul,li,ol{
+      @apply list-none;
+    }
+    img{
+      @apply align-middle;
+    }
+    a{
+      @apply no-underline inline-block;
+    }
+    h1,h2,h3,h4,h5,h6,img,ul,ol,li,span,div,a,p{
+      @apply m-0 p-0
+    }
+
+};
