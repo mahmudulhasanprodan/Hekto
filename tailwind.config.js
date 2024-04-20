@@ -12,6 +12,7 @@ export default {
 
     fontFamily: {
       JosefinFont: "var(--JosefinFont)",
+      Lato: "var(--Lato)",
     },
     
     extend: {
@@ -24,6 +25,7 @@ export default {
         SecondarycrdColor: "var(--SecondarycrdColor)",
         CommonColor: "var(--CommonColor)",
         FooterColor: "var(--FooterColor)",
+        SearchColor: "var(--SearchColor)",
       },
 
     },
