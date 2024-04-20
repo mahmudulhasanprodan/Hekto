@@ -1,10 +1,10 @@
 import React from 'react'
-import Menu from '../../HomeComponent/Menu/Menu'
+import Header from '../../HomeComponent/Header/Header';
 
 const Home = () => {
   return (
     <>
-      <Menu />
+      <Header />
     </>
   );
 }
