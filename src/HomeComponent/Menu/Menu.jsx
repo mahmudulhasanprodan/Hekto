@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../../assets/Logo.png"
+import Logo from "../../assets/HomeImage/Logo.png"
 import { NavLink } from "react-router-dom";
 import Button from '../../CommonComponent/Button/Button';
 import Flex from '../../CommonComponent/Flex/Flex';
@@ -12,7 +12,7 @@ const Menu = () => {
       <div className="py-6">
         <div className="container">
             <Flex className={"items-center justify-between"}>
-                <div>
+                <div className="cursor-pointer">
                     <picture>
                         <img src={Logo} alt={Logo} />
                     </picture>

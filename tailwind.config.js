@@ -26,6 +26,8 @@ export default {
         CommonColor: "var(--CommonColor)",
         FooterColor: "var(--FooterColor)",
         SearchColor: "var(--SearchColor)",
+        BannerColor: "var(--BannerColor)",
+        shapeColor: "var(--shapeColor)",
       },
 
     },
